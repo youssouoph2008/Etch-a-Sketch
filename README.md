@@ -42,5 +42,5 @@ Random color generation for fun effects.
 Maximum of 100 cells per side to prevent performance issues.
 # Credits
 
-Developed by [Your Name].
-Project inspired by a DOM and Advanced JavaScript course.
+Developed by Youssouph.
+Project inspired by The Odin Poject and Advanced JavaScript course.
