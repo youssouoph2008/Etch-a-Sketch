@@ -1,0 +1,74 @@
+/* Reset básico (opcional pero recomendado) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  /* centra el contenido en pantalla */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      
+}
+
+/* CONTENEDOR PRINCIPAL (opcional si usas uno) */
+.main {
+  /* puedes usar flex para organizar botón + grid */
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTÓN */
+button {
+  /* estilos del botón */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #050000;
+  background-color: #fff;
+}
+
+/* CONTAINER (la caja de la grid) */
+#container {
+  width: 960px;
+  height: 960px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* CADA CUADRADO */
+.square {
+  /* IMPORTANTE: tamaño dinámico (lo pondrás desde JS o aquí si es fijo) */
+  width: 60px; /* ejemplo para 16x16 */
+  height: 60px; /* ejemplo para 16x16 */
+  
+  /* borde opcional */
+  border: 1px solid #050000;
+
+  /*opcional: margen*/
+  margin: 0;
+
+  /*color de fondo inicial*/
+  background-color: #fff;
+
+  /*transición para suavizar el efecto hover*/
+  transition: background-color 0.3s ease;
+
+
+}
+
+/* EFECTO HOVER (opcional si usas CSS) */
+.square:hover {
+ background-color: #121050; 
+}
